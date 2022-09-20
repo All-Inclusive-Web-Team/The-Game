@@ -61,7 +61,7 @@ function checkCollision (entity1, entity2) {
 function doEnemyActions () {
   for (let enemy of enemiesList) {
     moveTowardPlayer(enemy);
-    console.log(enemy.width, player.height);
+    console.log(enemy.width, player.height); // why tf are they 7.5 times the usual size (but only here, not in browser)
     checkCollision(enemy, player);
     // check for ball and kill stuff
   }
