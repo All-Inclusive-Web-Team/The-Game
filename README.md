@@ -1,5 +1,7 @@
 # The-Game
 
+You Lose.
+
 Current plan:
 You control a character with a ball tethered to them.
 By moving the character you can give the ball momentum and swing it around.
